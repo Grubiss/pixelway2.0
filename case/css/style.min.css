@@ -248,12 +248,16 @@ h6 {
 
 .intro__body {
     position: absolute;
+    background: #f0ae19;
     top: 947.7px;
     width: 100%;
-    height: 100%;
+    height: 421.04px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center
@@ -266,19 +270,19 @@ h6 {
 
 .intro__container p {
     position: relative;
-    right: 45px;
-    color: #fff;
+    right: 0;
+    color: #000;
     font-family: MontserratRegular;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 29px
+    line-height: 34px;
 }
 
 .tasks__body {
     padding: 0 90px;
     position: absolute;
-    top: 1408px;
+    top: 1498px;
     min-width: 768px;
     width: 100%;
     min-height: 1470px;
@@ -307,7 +311,7 @@ h6 {
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 29px;
+    line-height: 34px;
     max-width: 1046px;
     width: 100%;
     position: relative;
@@ -328,7 +332,7 @@ h6 {
 .design__body {
     padding: 68px 90px 127px 90px;
     position: absolute;
-    top: 2633.27px;
+    top: 2683.27px;
     background: #f0ae19;
     width: 100%;
     min-width: 768px;
@@ -360,7 +364,7 @@ h6 {
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 29px;
+    line-height: 34px;
     max-width: 620px
 }
 
@@ -402,7 +406,7 @@ h6 {
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 29px;
+    line-height: 34px;
     color: #fff;
     max-width: 620px
 }
@@ -439,7 +443,10 @@ h6 {
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
 }
 
 .back__container_left h3 {
@@ -457,7 +464,7 @@ h6 {
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 29px;
+    line-height: 34px;
     max-width: 620px
 }
 
@@ -497,13 +504,21 @@ h6 {
     line-height: 59px;
     margin-bottom: 31px
 }
-
 .result__container p {
     font-family: MontserratRegular;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 29px;
+    line-height: 34px;
+    max-width: 1046px
+}
+
+.result__container li {
+    font-family: MontserratRegular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
     max-width: 1046px
 }
 
@@ -528,7 +543,7 @@ h6 {
 
 .footer__address {
     width: 330px;
-    height: 85px;
+    height: 215px;
     line-height: 17px
 }
 
@@ -589,8 +604,10 @@ h6 {
 
 .eMail {
     position: relative;
-    top: 3px
+    top: 3px;
 }
+
+@media(max-width:1px) {}
 
 @media (max-width:767px) {
     .header .header:before {
@@ -739,6 +756,7 @@ h6 {
         max-width: 300px
     }
     .intro__body {
+        height: 40%;
         position: absolute;
         top: 809px;
         min-width: 320px;
@@ -759,7 +777,7 @@ h6 {
         top: 1141px;
         min-width: 320px;
         width: 100%;
-        min-height: 928px;
+        min-height: inherit;
         height: 100%
     }
     .tasks__obj {
@@ -786,7 +804,7 @@ h6 {
     .design__body {
         padding: 36px 20px 45px 20px;
         position: absolute;
-        top: 2172.7px;
+        top: 1922.7px;
         width: 100%;
         min-width: 320px;
         height: 100%;
@@ -823,10 +841,10 @@ h6 {
     .front__body {
         padding: 37px 20px 33px 20px;
         position: absolute;
-        top: 3266.85px;
+        top: 3051.85px;
         height: 100%;
-        min-height: 661px;
-        max-height: 662px;
+        min-height: 449px;
+        max-height: 450px;
         width: 100%;
         min-width: 320px
     }
@@ -846,7 +864,7 @@ h6 {
         margin-right: 0
     }
     .front__container_left img {
-        width: 50%;
+        width: 45%;
         margin-left: 25%;
         margin-top: 80px
     }
@@ -858,25 +876,22 @@ h6 {
         font-size: 22px;
         line-height: 27px;
         margin-bottom: 15px;
-        position: relative;
-        bottom: 230px
     }
     .back__hiddenRight {
         display: block;
         width: 203.97px;
         height: 160px;
-        margin-left: 20%;
-        margin-bottom: 18px
+        margin: 0 auto;
     }
     .back__body {
         padding: 35px 20px 42px 20px;
         position: absolute;
-        top: 3921.7px;
+        top: 3613.7px;
         width: 100%;
         min-width: 320px;
         height: 100%;
-        min-height: 522.28px;
-        max-height: 523.77px
+        min-height: 370px;
+        max-height: 371px;
     }
     .back__container {
         display: -webkit-box;
@@ -894,7 +909,7 @@ h6 {
         margin-top: 0;
         font-size: 22px;
         line-height: 27px;
-        margin-bottom: 0
+        margin-bottom: 18px;
     }
     .back__container_left p {
         font-size: 18px;
@@ -906,13 +921,13 @@ h6 {
     }
     .result__body {
         position: absolute;
-        top: 4353px;
+        top: 3985px;
         height: 100%;
         min-height: 498px;
         max-height: 499px;
         width: 100%;
         min-width: 320px;
-        padding: 126px 20px 0 20px
+        padding: 126px 20px 0 40px
     }
     .result__container h2 {
         font-size: 30px;
@@ -923,9 +938,13 @@ h6 {
         font-size: 18px;
         line-height: 22px
     }
+    .result__container li {
+        font-size: 18px;
+        line-height: 22px;
+    }
     .footer__body {
         position: absolute;
-        top: 4960px;
+        top: 4585px;
         background: #171717;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -938,7 +957,7 @@ h6 {
         align-items: center;
         min-width: 800px;
         width: 100%;
-        max-height: 90px;
+        max-height: 170px;
         height: 100%;
         padding: 0 15px;
         min-width: 320px;
@@ -955,8 +974,8 @@ h6 {
         max-width: 100%
     }
     .footer__address {
-        width: 153px;
-        height: 48px
+        width: 50%;
+        height: 48%
     }
     .footer__address p {
         font-family: MontserratRegular;

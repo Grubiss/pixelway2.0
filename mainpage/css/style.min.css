@@ -249,7 +249,7 @@ h6 {
 .about__heading p {
     font-family: Roboto-Regular;
     font-size: 24px;
-    line-height: 28px;
+    line-height: 34px;
     position: absolute;
     top: 195px;
     width: 680px
@@ -292,12 +292,24 @@ h6 {
 }
 
 .about__title p {
+    text-align: center;
     width: 886px;
-    height: 200px;
+    height: auto;
     margin-top: 65px;
     font-family: Roboto-Regular;
     font-size: 24px;
-    line-height: 28px;
+    line-height: 34px;
+    color: #fff
+}
+.about__title li {
+    text-align: left;
+    width: 886px;
+    list-style: circle;
+    /* height: 200px; */
+    margin-top: 0px;
+    font-family: Roboto-Regular;
+    font-size: 24px;
+    line-height: 34px;
     color: #fff
 }
 
@@ -370,7 +382,7 @@ h6 {
 
 .item-services__text {
     margin-left: 24px;
-    text-align: left;
+    text-align: center;
     font-family: MontserratRegular;
     font-style: normal;
     font-weight: 400;
@@ -379,20 +391,7 @@ h6 {
     color: #fff
 }
 
-.site {
-    position: relative;
-    right: 33px
-}
 
-.design {
-    position: relative;
-    right: 20px
-}
-
-.market {
-    position: relative;
-    right: 15px
-}
 
 .receiveByMail__body {
     position: absolute;
@@ -427,6 +426,7 @@ h6 {
 }
 
 .receiveByMail__column {
+    text-align: justify;
     margin-left: 80px;
     font-family: MontserratRegular;
     font-style: normal;
@@ -978,8 +978,8 @@ h6 {
         font-family: MontserratRegular;
         font-style: normal;
         font-weight: 400;
-        font-size: 18px;
-        line-height: 22px;
+        font-size: 14px;
+        line-height: 20px;
         width: auto;
         top: 0;
         position: static;
@@ -1028,11 +1028,20 @@ h6 {
         padding: 0 15px
     }
     .about__title p {
+        text-align: left;
         font-size: 16px;
         line-height: 20px;
         width: auto;
         font-family: MontserratRegular;
         margin-top: 30px
+        
+    }
+    .about__title li {
+        text-align: left;
+        font-size: 16px;
+        line-height: 20px;
+        width: auto;
+        font-family: MontserratRegular;
     }
     .services__body {
         padding: 0 30px;
@@ -1112,7 +1121,8 @@ h6 {
         margin-top: 30px;
         margin-left: 0;
         font-size: 18px;
-        line-height: 22px
+        line-height: 22px;
+        text-align: left;
     }
     .submitMail {
         display: none
@@ -1121,7 +1131,7 @@ h6 {
         padding: 0 30px;
         min-width: 320px;
         width: 100%;
-        top: 2973px;
+        top: 3200px;
         height: 100%;
         min-height: 714.83px;
         -webkit-box-align: stretch;
@@ -1229,12 +1239,14 @@ h6 {
     .contacts__body {
         min-width: 320px;
         width: 100%;
-        top: 3690px;
+        top: 3915px;
         background: #131e1e;
         height: 100%;
         max-height: 376px
     }
     .contacts__header {
+        text-align: left;
+        padding-left: 30px;
         font-size: 30px;
         line-height: 37px;
         margin-top: 39px
@@ -1262,7 +1274,7 @@ h6 {
     }
     .footer__body {
         position: absolute;
-        top: 4063.91px;
+        top: 4291.91px;
         background: #171717;
         display: -webkit-box;
         display: -ms-flexbox;
