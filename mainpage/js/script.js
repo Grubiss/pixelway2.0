@@ -6,7 +6,21 @@ $(document).ready(function(){
     $('.header__list').click(function(event) {
         $('.header__burger,.header__menu').removeClass('active');
         $('body').removeClass('lock');
-    });    
+    });   
+
+    $(".popupBox").click(function() {
+        $('#shade').fadeIn(300);
+        var iddiv = $(this).attr("iddiv");
+        $('#' + iddiv).fadeIn(300);
+        $('#shade').attr('opendiv', iddiv);
+        return false;
+    });
+
+    $('#shade, .popup_close').click(function() {
+        var iddiv = $("#shade").attr('opendiv');
+        $('#shade').fadeOut(300);
+        $('#' + iddiv).fadeOut(300);
+    }); 
 });
 
 function testWebP(callback) {

@@ -139,6 +139,7 @@
         <section class="formRequest">
             <div id="formRequest" class="formRequest__body">
                 <form action="#" method="POST">
+                    <div id="shade" opendiv=""></div>
                     <div class="form">
                         <div class="form__header">
                             <h2>Оставьте заявку</h2>
@@ -170,11 +171,24 @@
                     </div>
                     <div class="form">
                         <div class="form__button">
-                            <input value="Отправить заявку" type="submit">
+                            <input iddiv="popup" class="popupBox" value="Отправить заявку" type="submit">
                         </div>
                     </div>
+
+
+                    <div id="popup" class="popup_body">                        
+                        <div class="popup_container">
+                            <div class="popup_items">
+                                <h2>Спасибо за обращение!</h2>
+                                <p>Мы свяжемся с вами в ближайшее время</p>
+                                <div class="popup_close"></div>   
+                            </div>
+                        </div>
+                    </div>
+
+
                     <div class="form__personalData">
-                        <p>Нажимая кнопку «Отправить заявку», я даю свое согласие на <a href="#">обработку персональных данных</a></p>
+                        <p>Нажимая кнопку «Отправить заявку», я даю свое согласие на <a href="../TermsOfUse.html">обработку персональных данных</a></p>
                     </div>
                 </form>
 
@@ -236,7 +250,7 @@
     </div>
 </footer>
     <script src="js/jquery.js "></script>
-    <script src="js/script.min.js "></script>
+    <script src="js/script.js "></script>
 </body>
 
 </html>
